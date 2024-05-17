@@ -133,11 +133,11 @@
           </select>
           <input type="text" placeholder="Please enter course keywords..."
             class="p-3 border-2 border-black placeholder:text-lg placeholder:text-gray-900" />
-          <button class="p-3 font-bold text-white bg-customOrange text-xl">
+          <button class="p-3 font-bold text-white bg-customOrange text-xl hover:bg-transparent hover:text-customOrange hover:border-customOrange border-2">
             Search
           </button>
         </div>
-        <div class="flex flex-col gap-3">
+        <div class="flex flex-col gap-3 mt-5">
           <h2 class="font-semibold text-2xl">Courses from A to Z:</h2>
           <div class="flex flex-col items-start">
             <a href="#" class="text-2xl font-[100] text-customOrange underline hover:text-yellow-600">Bachelor's and
@@ -152,9 +152,9 @@
 
     <!-- NEWS SECTION -->
     <section class="bg-newsBackground py-32 px-6 lg:px-32 w-full">
-      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-start sm:justify-between">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-0 justify-start sm:justify-between">
         <h1 class="text-6xl text-customOrange font-light">News</h1>
-        <div class="flex items-center justify-center gap-1">
+        <div class="flex items-center justify-center cursor-pointer gap-1">
           <p class="text-customOrange font-semibold">All news</p>
           <div class="bg-customOrange w-6 h-6 flex items-center justify-center rounded-full text-white">
             <i class="uil uil-angle-right"></i>
@@ -163,8 +163,8 @@
       </div>
 
       <div>
-        <div class="mt-10 flex items-start justify-between gap-8">
-          <article class="bg-white w-[450px] h-[500px] flex flex-col items-start justify-between">
+        <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:pax-32 lg:gap-8">
+          <article class="bg-white w-full h-[500px] flex flex-col items-start justify-between mb-4 lg:mb-0">
             <div class="py-5 px-4 flex flex-col items-start justify-between flex-grow">
               <div class="flex flex-col items-start gap-4">
                 <h2 class="text-customOrange">Desporto</h2>
@@ -178,7 +178,7 @@
             <img src="./images/pitch.jpg" class="" />
           </article>
 
-          <article class="bg-white w-[450px] h-[500px] flex flex-col items-start justify-between">
+          <article class="bg-white w-full h-[500px] flex flex-col items-start justify-between mb-4 lg:mb-0">
             <div class="py-5 px-4 flex flex-col items-start justify-between flex-grow">
               <div class="flex flex-col items-start gap-4">
                 <h2 class="text-customOrange">
@@ -195,7 +195,7 @@
             <img src="./images/news-2.jpg" class="" />
           </article>
 
-          <article class="bg-white w-[450px] h-[500px] flex flex-col items-start justify-between">
+          <article class="bg-white w-full h-[500px] flex flex-col items-start justify-between mb-4 lg:mb-0">
             <div class="py-5 px-4 flex flex-col items-start justify-between flex-grow">
               <div class="flex flex-col items-start gap-4">
                 <h2 class="text-customOrange">Cultura</h2>
@@ -298,7 +298,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col items-start justify-center gap-4 md:flex-row md:justify-evenly pt-10">
+      <div class="flex flex-col items-center md:items-start justify-center gap-4 md:flex-row md:justify-evenly pt-10">
         <div class="flex flex-col items-center justify-center gap-2 mx-5">
           <h1 class="font-bold text-white text-4xl">+300</h1>
           <p class="font-light text-3xl text-white text-center">Courses</p>
