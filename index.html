@@ -6,10 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Cloning Gate</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
   </head>
   <body>
 
-    <h1 class="text-center text-3xl py-10 bg-blue-500 text-white">Hello World</h1>
+    <!-- PAGE CONTAINER SO AS I CAN IMPLEMENT STICKY HEADER -->
+    <section>
+      
+      <!-- NAVIGATION SECTION -->
+      <div class="hidden md:block bg-gray-900 text-white h-fit md:px-5 lg:px-32">
+        <div class="flex items-center justify-between w-full py-2">
+          <div class="flex items-center justify-start gap-7">
+
+            <div class="flex items-center justify-start gap-4">
+              <p class="text-white font-bold">About the university</p>
+              <i class="uil uil-angle-down text-xl font-bold"></i>
+            </div>
+            <div class="flex items-center justify-start gap-4">
+              <p class="text-white font-bold">Faculties</p>
+              <i class="uil uil-angle-down text-xl font-bold"></i>
+            </div>
   
+          </div>
+  
+          <div class="flex gap-3">
+            <div class="flex gap-3">
+              <i class="cursor-pointer uil uil-clipboard-notes text-xl"></i>
+              <i class="cursor-pointer uil uil-instagram text-xl"></i>
+              <i class="cursor-pointer uil uil-youtube text-xl"></i>
+              <i class="cursor-pointer uil uil-linkedin text-xl"></i>
+              <i class="cursor-pointer uil uil-twitter text-xl"></i>
+              <i class="cursor-pointer uil uil-facebook-f text-xl"></i>
+            </div>
+            <div class="flex gap-3">
+              <p class="text-gray-400 font-bold cursor-pointer">PT</p>
+              <p class="font-bold cursor-pointer">EN</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <section class="sticky top-0 flex items-center justify-between py-7 px-10 bg-gray-300 md:px-5 lg:px-32">
+        <div class="flex items-center gap-2">
+          <i class="uil uil-bars text-5xl"></i>
+          <img src="./images/logo.svg" class="w-40" alt="">
+        </div>
+        <div>
+          <img src="./images/mini-menu.svg" class="md:hidden w-12">
+          <div class="hidden md:block">
+            <nav class="flex items-center gap-8">
+              <div class="flex items-center gap-4">
+                <p class="font-bold cursor-pointer text-base">STUDY</p>
+                <p class="font-bold cursor-pointer text-base">RESEARCH</p>
+                <p class="font-bold cursor-pointer text-base">INNOVATE</p>
+                <p class="font-bold cursor-pointer text-base">LIVE</p>
+                <p class="font-bold cursor-pointer text-base">EXPLORE</p>
+              </div>
+              <div class="flex items-center gap-0 justify-center">
+                <input type="text" class="w-40 bg-transparent placeholder:text-black placeholder:text-xl border-b border-black cursor-pointer" placeholder="Search">
+                <img src="./images/search.svg" class="w-7">
+              </div>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <!-- ALL THE PAGE CONTENT GOES HERE!! -->
+
+    </section>
   </body>
 </html>
